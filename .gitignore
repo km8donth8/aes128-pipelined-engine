@@ -1,0 +1,57 @@
+# Simulation outputs
+build/
+obj_dir/
+*.vvp
+*.vcd
+*.fst
+*.lxt
+*.lxt2
+*.wdb
+
+# Verilator-generated files
+V*.cpp
+V*.h
+V*.mk
+verilated*.cpp
+verilated*.h
+
+# Logs and temporary files
+*.log
+*.jou
+*.str
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# Vivado-generated directories
+.Xil/
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+
+# OpenLane-generated results
+runs/
+reports/
+logs/
+
+# Node.js
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# VS Code local settings
+.vscode/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
